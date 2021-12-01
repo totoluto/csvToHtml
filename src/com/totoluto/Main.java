@@ -5,8 +5,6 @@
  * @version: 1.0.1
  */
 
-
-
 package com.totoluto;
 
 import java.io.*;
