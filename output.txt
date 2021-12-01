@@ -605,8 +605,5 @@
 	 	 <td>malesuada@hotmail.org</td>
 	 	 <td>China</td>
 	 </tr>
-<<<<<<< HEAD
 </table>
-=======
-</table>
->>>>>>> 4489efa03d22f45262f192992f1d129a5c589382
+
