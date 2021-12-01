@@ -22,7 +22,7 @@ public class Main {
         int counter = 0;
 
         BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt", StandardCharsets.UTF_8, false));
-        writer.write("<table>");
+        writer.write("<table>\n");
         while ((row = bReader.readLine()) != null) {
             String[] data = row.split(",");
 
@@ -33,9 +33,9 @@ public class Main {
                         "\t \t <th>"+ data[2] +"</th>\n" + // third data column
                         "\t \t <th>"+ data[3] +"</th>\n" + // fourth data column
                         // Add more <th> and count data[n] up
-                        "</tr>\n");
+                        "\t </tr>\n");
             }else{
-                writer.write("<tr>\n" +
+                writer.write("\t <tr>\n" +
                         "\t \t <td>"+ data[0] + "</td>\n" + // first data column
                         "\t \t <td>"+ data[1] +"</td>\n" + // second data column
                         "\t \t <td>"+ data[2] +"</td>\n" + // third data column
