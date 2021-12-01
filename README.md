@@ -1,6 +1,5 @@
 # CSV to Html
 
----------------
 This is a `java` project I wrote to make a table for a website based on an `excel` table. The first line will be the Header so make sure you have the Header titles included in your `.CSV` file.
 ## Setup
 You'll need a `.CSV` file for the program to work. <br>
