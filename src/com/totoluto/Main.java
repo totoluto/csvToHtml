@@ -22,7 +22,7 @@ public class Main {
         int counter = 0;
 
         BufferedWriter writer = new BufferedWriter(new FileWriter("output.txt", StandardCharsets.UTF_8, false));
-                writer.write("<table>");
+        writer.write("<table>");
         while ((row = bReader.readLine()) != null) {
             String[] data = row.split(",");
 
